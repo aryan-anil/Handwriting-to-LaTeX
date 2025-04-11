@@ -50,7 +50,7 @@ To improve generalization, noise was added to the input images (e.g., Gaussian n
 - OpenCV
 - PIL
 
-## Citation
+## References
 ```
 @article{gervais2024mathwriting,
   title={Mathwriting: A dataset for handwritten mathematical expression recognition},
