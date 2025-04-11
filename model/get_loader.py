@@ -76,8 +76,8 @@ if __name__ == "__main__":
     tokenizer.pad_token = tokenizer.eos_token
 
     
-    image_folder = r"C:\Users\Aryan\Documents\notesai\latex_detection\data\dummpy_excerpt_train"
-    label_json_file = r"C:\Users\Aryan\Documents\notesai\latex_detection\data\dummpy_excerpt_train\normalized.json"
+    image_folder = r""      # Folder with images extracted from inkml files
+    label_json_file = r""   # json file mapping image name with latex code. {"image.png" : "latex code"}
     dataset = LaTeXDataset(image_folder, label_json_file, tokenizer, transform=transform)
 
     dataloader = DataLoader(
