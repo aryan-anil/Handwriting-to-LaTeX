@@ -2,11 +2,25 @@
 
 A deep learning model that converts handwritten mathematical expressions into LaTeX code. This project uses a Vision Transformer (ViT) as the encoder to process handwriting images, and a GPT-2 decoder with cross-attention to generate the corresponding LaTeX markup.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e9296967-f864-44aa-9407-062d08f4970e" alt="Input Handwriting" width="400"/>
-  <img src="https://github.com/user-attachments/assets/1b59a78a-54a3-41e9-8733-662b7664f998" alt="Output LaTeX Code" width="400"/>
-  <img src="https://github.com/user-attachments/assets/b630f11a-b50a-4202-8b94-3f743db03685" alt="Compiled LaTeX using online compiler"/>
+<div align="center" style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/e9296967-f864-44aa-9407-062d08f4970e" alt="Input Handwriting" width="250"/>
+    <p><strong>Input Handwriting</strong></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/1b59a78a-54a3-41e9-8733-662b7664f998" alt="Output LaTeX Code" width="250"/>
+    <p><strong>Generated LaTeX Code</strong></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/b630f11a-b50a-4202-8b94-3f743db03685" alt="Compiled LaTeX Output" width="250"/>
+    <p><strong>Compiled LaTeX Output</strong></p>
+  </div>
+
 </div>
+
 
 
 ##  Features
